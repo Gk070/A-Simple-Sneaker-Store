@@ -65,3 +65,54 @@ h1{
     scale: 1.1;
     transition: 0.4s all ease-out;
 }
+@media screen and (max-width: 319px){
+    .card {
+        width: 90%;
+        height: 35%;
+    }
+}
+
+@media  screen and (min-width: 320px) and (max-width: 480px){
+    .card {
+        width: 80%;
+        height: 35%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px){
+    .container {
+        width: 90%;
+        min-height: 100%;
+        margin: auto;
+    }
+    .card {
+        width: 50%;
+        height: 30%;
+    }     
+}
+
+@media  screen and (min-width: 768px) and (max-width: 1024px){
+    .container {
+        width: 80%;
+        min-height: 100%;
+        margin: auto;
+    }
+    .card {
+        width: 30%;
+        height: 30%;
+    }    
+}
+
+@media  screen and (min-width: 1025px) and (max-width: 1440px){
+    .card {
+        width: 25%;
+        height: 30%;
+    }  
+}
+
+@media  screen and (min-width: 1441px){
+    .card {
+        width: 25%;
+        height: 40%;
+    }
+}
